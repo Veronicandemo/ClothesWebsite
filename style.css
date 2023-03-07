@@ -218,6 +218,10 @@ body{
     margin-top: 2%;
     font-weight: 700;
 }
+.dots:hover{
+    cursor: pointer;
+
+}
 .dot5,
 .dot1,
 .dot2,
