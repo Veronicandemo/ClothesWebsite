@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+
+}
+.container1{
+    background-image: linear-gradient(rgba(145, 167, 255, 0.3), rgba(145, 167, 255, 0.3)),
+    url(./images/dresses.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.logo{
+    border-radius: 100%;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+.header{
+    display: flex;
+    gap: 80px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 150px;
+    margin-top: 5%;
+}
+.navigation ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.shopping-btn{
+    background-color: #212529;
+    color: #fff;
+    padding: 18px 24px;
+    border-radius: 11px;
+}
+.updates{
+    color: #fff;
+    margin-top: 5%;
+}
+.updates p{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+    margin-left: 15%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.updates label{
+    margin-top: 20%;
+    font-size: 20px;
+    margin-left: 4%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.updates input{
+    padding: 6px 56px;
+    margin-left: 3%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.container2{
+    font-family: 'Roboto', sans-serif;
+    height: 120vh;
+    margin-top: 10%;
+}
+.shirt-carts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    overflow: hidden;
+}
+.shirts{
+    background-color: #f8f0fc;
+    height: 400px;
+    width: 290px;
+    /* padding-top: 34px; */
+    padding: 12px 34px;
+    margin: 24px 5px;
+    border-radius: 5px;
+    box-shadow: 0 24px 38px rgb(0, 0, 0, 0.07);
+
+}
+.prices{
+    display: flex;
+    gap: 25%;
+    font-size: 16px;
+}
+.btn-addCart{
+    background-color: #9c36b5;
+    padding: 8px 34px;
+    margin-top: 10%;
+    border-style: none;
+    border-radius: 15px;
+    color: #f8f0fc;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.cart-icon{
+    width: 22px;
+    height: 22px;
+}
+.title{
+    font-size: 54px;
+    text-align: center;
+    color: #862e9c;
+    margin: 3% 3%;
+
+}
+.checkout{
+    padding: 12px 94px;
+    margin: 5% 8%;
+    margin-left: 40%;
+    background-color: #1b091f;
+    border-style: none;
+    border-radius: 50px;
+    
+}
+.checkout a:link,
+.checkout a:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #f8f0fc;
+    
+}
+.checkout:hover,
+.checkout:active{
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #b197fc;
+    color: #1b091f;
+}
+/* Checkout */
+
+.checkout-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.checkout-form label{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+.checkout-form input,
+.checkout-form select{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #f3d9fa;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.checkout-form input::placeholder{
+    color: #aaa;
+}
+.checkout-form select,
+.checkout-form button{
+    padding: 1.2rem;
+}
+.total{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: 1.7px;
+    color: #0d0510;
+}
+.checkout-heading{
+    text-align: center;
+    margin: 5% 15%;
+    font-size: 34px;
+}
+
+.dots{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.dots p{
+    margin-top: 2%;
+    font-size: 15px;
+    color: #36123e;
+}
+.dot{
+    background-color: #f3eaf5;
+    padding: 6px;
+    color: #501c5e;
+    border-radius: 50%;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 700;
+}
+.dot5,
+.dot1,
+.dot2,
+.dot3,
+.dot4{
+    padding: 10px;
+    background-color: #0d0510;
+    color: #f3eaf5;
+
+}

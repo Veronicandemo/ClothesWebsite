@@ -1,0 +1,2 @@
+John is a second-hand cloth seller in Gikomba. For the past 10 years, he has experienced a steady stream of income with customers visiting and revisiting his stall. When the pandemic hit in 2019 and the lockdown was issued in many parts of the country, John's income was on a fast decline. Leveraging technology, what can John do to ensure his income is not affected regardless of a pandemic?
+Used HTML and CSS to makes an online shop for John
